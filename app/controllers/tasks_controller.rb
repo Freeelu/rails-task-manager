@@ -33,7 +33,7 @@ class TasksController < ApplicationController
     @task.destroy
 
     # no need for app/views/tasks/destroy.html.erb
-    redirect_to tasks_path
+    redirect_to index_path
   end
 
   private
